@@ -20,11 +20,11 @@ create or replace table TPCDS.RAW.inventory(
 );
 
 -- Create or replace a user named Group_6 with a specified password for authentication.
-create or replace user Group_6
-password='CapstoneGroup6';
+create or replace user ##
+password='##';
 
--- Grant the role 'accountadmin' to the user Group_6.
-grant role accountadmin to user Group_6;
+-- Grant the role 'accountadmin' to the user .
+grant role accountadmin to user ##;
 
 -- Set the current warehouse context to COMPUTE_WH.
 use warehouse COMPUTE_WH;
