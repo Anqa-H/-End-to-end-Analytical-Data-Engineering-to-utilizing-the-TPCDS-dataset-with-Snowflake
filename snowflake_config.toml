@@ -1,0 +1,4 @@
+[snowflake]
+file_format_name = "comma_csv"
+stage_name = "inventory_stage"
+table = "inventory"
